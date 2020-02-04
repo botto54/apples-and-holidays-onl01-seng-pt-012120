@@ -124,9 +124,7 @@ def all_supplies_in_holidays(holiday_hash)
         name = new_array.join(" ")
         #turn array to string with join 
         supply = supply.join(", ")
-        puts "  #{name}: #{supply}"
-      end
-    end
+      
 
 # Write a method to collect all holidays with "BBQ" in the supply array.
 def all_holidays_with_bbq(holiday_hash)
