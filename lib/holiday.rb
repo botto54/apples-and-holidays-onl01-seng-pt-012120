@@ -129,4 +129,15 @@ def all_supplies_in_holidays(holiday_hash)
     end
 end
 
-
+# Write a method to collect all holidays with "BBQ" in the supply array.
+def all_holidays_with_bbq(holiday_hash)
+  array = []
+  holiday_hash.each do |season, holiday|
+      holiday.each do |name, supply|
+      if supply.include?("BBQ")
+        array << name
+      end
+      end
+  end  
+  array
+end
