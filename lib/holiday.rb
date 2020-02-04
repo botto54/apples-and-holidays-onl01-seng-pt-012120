@@ -127,8 +127,6 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  #{name}: #{supply}"
       end
     end
-end
-end
 
 # Write a method to collect all holidays with "BBQ" in the supply array.
 def all_holidays_with_bbq(holiday_hash)
